@@ -1,0 +1,99 @@
+test: "test"
+
+
+# needs translation call in the layout which is in the gem
+# tagline: "tagline"
+# description: "description"
+# #
+# The layout text of site
+
+# ----- Commons label -----
+
+layout:
+  post: Post
+  category: Category
+  tag: Tag
+
+# The tabs of sidebar
+tabs:
+  # format: <filename_without_extension>: <value>
+  home: inici
+  categories: Categories
+  tags: Etiquetes
+  archives: Arxius
+  about: Sobre
+
+# the text displayed in the search bar & search results
+search:
+  hint: Buscar
+  cancel: Cancel · lar
+  no_results: Vaja! Sense resultats.
+
+panel:
+  lastmod: Actualitzat recentment
+  trending_tags: etiquetes de tendència
+  toc: Continguts
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: Aquesta publicació té la llicència de l'autor:LICENSE_NAME.
+    name: CC BY 4.0
+    link: https://creativecommons.org/licenses/by/4.0/
+
+  # Displayed in the footer
+  brief: Alguns drets reservats.
+  verbose: >-
+    Tret que s'indiqui el contrari, les publicacions del bloc d'aquest lloc tenen llicència
+    sota la llicència Creative Commons Attribution 4.0 International (CC BY 4.0) de l'autor.
+
+#meta: Using the :THEME theme for :PLATFORM.
+
+not_found:
+  statment: Ho sentim, hem perdut aquest URL o apunta a alguna cosa que no existeix.
+
+notification:
+  update_found: Hi ha disponible una nova versió del contingut.
+  update: Actualització
+
+# ----- Posts related labels -----
+
+post:
+  written_by: Per
+  posted: Publicat
+  updated: Actualitzat
+  words: paraules
+  pageview_measure: vistes
+  read_time:
+    unit: min
+    prompt: llegir
+  relate_posts: Per llegir més
+  share: Compartir
+  button:
+    next: Més nou
+    previous: Més vell
+    copy_code:
+      succeed: Copiat!
+    share_link:
+      title: Copia l'enllaç
+      succeed: L'enllaç s'ha copiat correctament!
+
+# Date time format.
+# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+df:
+  post:
+    strftime: "%b %e, %Y"
+    dayjs: "ll"
+  archives:
+    strftime: "%b"
+    dayjs: "MMM"
+
+# categories page
+categories:
+  category_measure:
+    singular: categoria
+    plural: categories
+  post_measure:
+    singular: publicació
+    plural: publicacions
+
