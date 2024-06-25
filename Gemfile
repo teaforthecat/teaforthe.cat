@@ -9,9 +9,7 @@ gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1", path: '.submodules/chirpy'
 
 gem 'jekyll-compose', group: [:jekyll_plugins], path: '.submodules/compose'
 
-group :test do
-  gem "html-proofer", "~> 5.0"
-end
+gem "html-proofer", "~> 5.0"
 
 gem "jekyll-polyglot", "~> 1.8", :group => :jekyll_plugins, path: '.submodules/polyglot'
 
