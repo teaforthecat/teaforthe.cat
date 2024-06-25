@@ -237,6 +237,7 @@ jekyll-archives:
 languages: ["ca", "en", "es", "fr"]
 langs: ["ca", "en", "es", "fr"]
 default_lang: "ca"
+add_default_lang_dir: true
 exclude_from_localization: ["javascript", "images", "css", "public", "assets"]
 parallel_localization: false
 
