@@ -7,7 +7,7 @@ ruby "3.2.2"
 
 gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1", path: '.submodules/chirpy'
 
-gem 'jekyll-assets', "~> 1.0.0", group: [:jekyll_plugins]
+# gem 'jekyll-assets', "~> 1.0.0", group: [:jekyll_plugins]
 
 gem 'jekyll-compose', group: [:jekyll_plugins], path: '.submodules/compose'
 
