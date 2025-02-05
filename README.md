@@ -41,6 +41,21 @@ Then clone it to your local machine and run:
 $ bundle
 ```
 
+## Writing
+
+To create a draft
+```sh
+    $ bundle exec jekyll draft  en/my-new-draft
+```
+
+Publish your draft using:
+
+```sh
+    $ bundle exec jekyll publish _drafts/en/my-new-draft.md
+```
+
+
+
 ## Usage
 
 Please see the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy#documentation).
