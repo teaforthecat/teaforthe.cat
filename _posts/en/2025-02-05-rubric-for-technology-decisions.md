@@ -9,25 +9,27 @@ lang: en
 ## Intro
 There are various strategies for making business decisions. Sometimes they
 aren't used if the decision doesn't seem important enough. The problem with
-technology decisions is that it may not seem like an
-important decision until much later on. Until it is too late- productivity has
-plummeted and people start wispering that nasty word: _rewrite_. There are more
-contributors to that situation, such as application design, and testing, but the
-technology choice is one contributor. These decisions can have a million dollar
-impact on a business, but often their rationale is hidden in secret (if any
-rationale is used at all). They are a bet into the future and can pay dividends
-or sink your ship, leading to layoffs or overseas contractors because
-development has... become... so... hard.
+technology decisions is that it may not seem like an important decision until
+much later on. Until it is too late- productivity has plummeted and people start
+wispering that nasty word: _rewrite_. There are more contributors to that
+situation, such as application design, and testing, but the technology choice is
+one contributor. If you calculate developer productivity losses over multiple
+years, this can add up quickly. These decisions can have a million dollar impact
+on a business, but often their rationale is hidden in secret (if any rationale
+is used at all). They are a bet into the future and can pay dividends or slow
+down delivery so much that the business is impacted, leading to layoffs or
+overseas contractors because development has... become... so... hard.
 
-By _technology_, I'm refering to languages, frameworks, systems, and tooling
-that developers will use to do their job everyday.  If you calculate developer productivity
-losses over multiple years, this can add up quickly. Technology decisions can be
-given the rigor and explicit nature of other business decisions with a
-structured document. There are many such structures to choose from, but I
-haven't seen a concise, easy to use rubric for assessing a technology decision,
-so one is presented here. It is provided as a tool for assessing the quality of
-a technology decision. Consider these ideas when you are about to make a
-technology decision and hopefully it will stand the test of time.
+    By _technology_, I'm refering to languages, frameworks, systems, and tooling
+    that developers will use to do their job everyday. 
+
+Technology decisions can be given the rigor and explicit nature of other
+business decisions with a structured document. There are many such structures to
+choose from, but I haven't seen a concise, easy to use rubric for assessing a
+technology decision, so one is presented here. It is provided as a tool for
+assessing the quality of a technology decision. Consider these ideas when you
+are about to make a technology decision and hopefully it will stand the test of
+time.
 
 **Technology Decision Rubric:**
 
@@ -37,8 +39,9 @@ There are three facets to assess:
 1. Offerings of the community 
 
 ## Domain of the Problem 
-What is the domain of the problem? That is a big question and can be hard to
-answer. Here are some examples with what I would name the domain in parentheses.
+Every project has a problem it is trying to solve. What is the domain of the
+problem? That is a big question and can be hard to answer. Here are some
+examples with what I would name the domain in parentheses.
 
 1. I need users to fill out web forms for data entry. (Web forms)
 1. I need to process a million events an hour and publish summary data.  (Event Streaming)
@@ -56,15 +59,16 @@ growth-hungry developers, impact morale, culture and engagement, and maybe
 provide a edge over a competing business. 
 
 Provided they know _what_ to build (also not easy), an experienced team with
-well known tools can provide emmense value.
+well-known tools can provide emmense value.
 
-There are edge cases. If you have a startup and only one developer,
-or you plan to augment a team with rotating contractors, there are other things
-to consider. This facet still applies though. Define the team,
-partially, in terms of all possible developers that could potentially join the
-team. Language popularity is a researched statistic that is published regularly.
-Frameworks or other tooling seem to be less researched, but it is worth looking into.
-It would be best for this to be a data-driven facet.
+There are edge cases. If you have a startup and only one developer, or you plan
+to augment a team with rotating contractors, there are other things to consider.
+This facet still applies though. Define the team, partially, in terms of all
+possible developers that could potentially join the team. Language popularity is
+a researched statistic that is published regularly. Frameworks or other tooling
+seem to be less researched, but it is worth looking into. It would be best for
+this to be a data-driven facet, though be careful not to fall into a popularity
+contest. 
 
 ## Offerings of the Community
 
@@ -75,8 +79,7 @@ understand because they have been refined by experience, collaboration, and
 craftsmanship. Every library used is less code the team has to develop and
 maintain, which lets them focus on business value.
 
-
-## Usage
+## Using the rubric
 
 When considering one or more options for a language or technology, assess each
 of the facets, assigning a number to each, add them up, and compare their
@@ -99,8 +102,8 @@ Score ranges for each facet:
 Total score results:
 - 9   - a good technology decision
 - 7-8 - risky! look for another option
-- 3-6 - consider this a skunkworks project with zero expectations and should be
-  archived at the end 
+- 3-6 - consider this a skunkworks project with zero expectations, and the
+  project should probably not go to production 
 
 ## Other considerations
 These haven't been included in the rubric to keep it simple, but these are
@@ -110,7 +113,6 @@ potential facets that could be added to your technology decision.
 available and easy to use? 
 - Is the techology itself easy to learn?
 
-
 ## Examples
     
 ### Problem 1:
@@ -119,13 +121,13 @@ available and easy to use?
 Proposed Tech: Rust; _score:_ 6 - skunkworks, research and learning
 
 1. **Problem domain:** _score: 3_ (Embedded)
-A large faction of the user base seems to be using this tech with embedded projects and it is called out as a "distinct" domain supported on the website.
+Seems to have a large user base using this tech with embedded projects and it is called out as a "distinct" domain supported on the website.
 
 2. **Experience of the team:** _score: 1_
 One person that has never used Rust
  
 3. **Offerings of the community:** _score: 2_
-Would be a 3 but many of the supporting libraries are newish, so some issues can be expected, though the quality of tooling and support does seem to be great and getting started is easy because of this
+Would be a 3 but many of the supporting libraries are newish, so some issues can be expected, though the quality of tooling and support does seem to be great and getting started is easy because of this.
 
 ### Problem 2: 
 
@@ -134,7 +136,7 @@ Would be a 3 but many of the supporting libraries are newish, so some issues can
 Proposed Tech: Ruby on Rails; _score:_ 9 - good
 
 1. **Problem domain** _score: 3_ (Web forms)
-Most Rails projects are made in the domain.
+Most Rails projects are made in this domain.
 2. **Experience of the team** _score: 3_
 One developer has 10 years, and one developer will be hired, and Ruby is one of the more common languages.
 3. **Offerings of the community** _score: 3_
@@ -159,12 +161,4 @@ comparisons would be very interesting for someone to read 5 years into the
 future when some resistance, unrest, and whispers ignite questions about how the
 team is spending their day. May that never happen to you... at least not for a
 decade.
-
-
-
-
-
-
-
-
 
