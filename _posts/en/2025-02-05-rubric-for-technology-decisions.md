@@ -106,7 +106,7 @@ Total score results:
 These haven't been included in the rubric to keep it simple, but these are
 potential facets that could be added to your technology decision.
 
-- Are there guides, blog posts, examples, and documentation that is readily
+- Are there guides, blog posts, examples, and documentation that are readily
 available and easy to use? 
 - Is the techology itself easy to learn?
 
@@ -116,7 +116,7 @@ available and easy to use?
 ### Problem 1:
 **I need to control lights based on an audio signal.**
 
-Proposed Tech: Rust; _score:_ 6 - research and learning
+Proposed Tech: Rust; _score:_ 6 - skunkworks, research and learning
 
 1. **Problem domain:** _score: 3_ (Embedded)
 A large faction of the user base seems to be using this tech with embedded projects and it is called out as a "distinct" domain supported on the website.
