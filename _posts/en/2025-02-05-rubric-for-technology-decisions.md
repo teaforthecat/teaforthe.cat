@@ -20,8 +20,8 @@ is used at all). They are a bet into the future and can pay dividends or slow
 down delivery so much that the business is impacted, leading to layoffs or
 overseas contractors because development has... become... so... hard.
 
-    By _technology_, I'm refering to languages, frameworks, systems, and tooling
-    that developers will use to do their job everyday. 
+> By _technology_, I'm referring to languages, frameworks, systems, and tooling
+> that developers will use to do their job everyday. 
 
 Technology decisions can be given the rigor and explicit nature of other
 business decisions with a structured document. There are many such structures to
