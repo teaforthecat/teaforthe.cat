@@ -10,15 +10,11 @@ lang: en
 There are various strategies for making business decisions. Sometimes they
 aren't used if the decision doesn't seem important enough. The problem with
 technology decisions is that it may not seem like an important decision until
-much later on. Until it is too late- productivity has plummeted and people start
-wispering that nasty word: _rewrite_. There are more contributors to that
-situation, such as application design, and testing, but the technology choice is
-one contributor. If you calculate developer productivity losses over multiple
-years, this can add up quickly. These decisions can have a million dollar impact
-on a business, but often their rationale is hidden in secret (if any rationale
-is used at all). They are a bet into the future and can pay dividends or slow
-down delivery so much that the business is impacted, leading to layoffs or
-overseas contractors because development has... become... so... hard.
+much later on. These decisions can have a multi-million dollar impact on a
+business, but often their rationale is hidden in secret (if any rationale is
+used at all). They are a bet into the future. They can pay dividends or bring
+productivity to an agonizing, business-crippling drip. 
+
 
 > By _technology_, I'm referring to languages, frameworks, systems, and tooling
 > that developers will use to do their job everyday. 
@@ -51,33 +47,28 @@ examples with what I would name the domain in parentheses.
 
 Use your best naming skills to define your problem domain.
 
+With a well-defined problem domain, the team can be careful not to over-extend
+into other problem domains that would be better solved by another project, or by
+buying rather than by building. Focused buildng. This is the goal.
+
 ## Experience of the team
-If the tech is new to the team you can expect and plan for some learning time.
-You can also expect that even with learning time, the first version will not be
-great. Skunkworks projects are great, they can provide growth opportunities for
-growth-hungry developers, impact morale, culture and engagement, and maybe
-provide a edge over a competing business. 
+This is an obvious one, but sometimes it's overlooked, or underappreciated.
+Developers are expected to mold to the project, not the project mold to them.
+This makes sense because to much change is bad, but too little is also bad, and
+this comfort with the status-quo is something that should be challenged - in a
+structured way.
 
 Provided they know _what_ to build (also not easy), an experienced team with
-well-known tools can provide emmense value.
-
-There are edge cases. If you have a startup and only one developer, or you plan
-to augment a team with rotating contractors, there are other things to consider.
-This facet still applies though. Define the team, partially, in terms of all
-possible developers that could potentially join the team. Language popularity is
-a researched statistic that is published regularly. Frameworks or other tooling
-seem to be less researched, but it is worth looking into. It would be best for
-this to be a data-driven facet, though be careful not to fall into a popularity
-contest. 
+well-known tools can provide emmense value. This is the goal. 
 
 ## Offerings of the Community
 
 What we are looking for here is up-to-date libraries with many contributors and,
-ideally, old. Not new libraries, old boring libraries that have been arround for
-ages and are commonly used. Libraries that are quick and easy to use and
-understand because they have been refined by experience, collaboration, and
+ideally, they are old. Not new libraries; old boring libraries that have been
+arround for ages and are commonly used. Libraries that are quick and easy to use
+and understand because they have been refined by experience, collaboration, and
 craftsmanship. Every library used is less code the team has to develop and
-maintain, which lets them focus on business value.
+maintain, which lets them focus on business value. This is the goal.
 
 ## Using the rubric
 
@@ -155,10 +146,10 @@ No one on the team has used Dataomic, let alone a graph database. The learning c
 There are a few libraries that support an alternative schema syntax and migrations. The main offerings come from a paid license, which is quite nice, and offer everything that would be needed to support the database.
 
 ## Conclusion
-Here we see that this Rubric has forced us to be explicit around our thinking
-and has helped us segment the concerns about certain tech. Side by side
+Here we see that this rubric has forced us to be explicit around our thinking
+and has helped us segment the concerns about certain tech. Side-by-side
 comparisons would be very interesting for someone to read 5 years into the
-future when some resistance, unrest, and whispers ignite questions about how the
-team is spending their day. May that never happen to you... at least not for a
-decade.
-
+future. As the world around a project changes, these decisions can be
+re-assessed. As your project, people, and problems change, there might be a
+better fitting technology - and doing this rigorous thinking might save your
+business.
